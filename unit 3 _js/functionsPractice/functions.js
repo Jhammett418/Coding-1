@@ -5,9 +5,9 @@
 // functions come in 2 variations:
 // built in functions - these are instructions that are pre-written 
 // into coding language, All we need to do is pass in data
- 
+
 // examples
-var className='Coding class'
+var className = 'Coding class'
 console.log('coding class.')
 
 
@@ -16,8 +16,8 @@ console.log('coding class.')
 
 // How do we write  a user-defined function?
 
-function exampleFunction(){ 
-    console.log ('The function script is connected')
+function exampleFunction() {
+    console.log('The function script is connected')
 }
 
 //in order to have a function work, we need to call it. 
@@ -25,4 +25,10 @@ function exampleFunction(){
 // telling the computer the instructions- Not to actually run it.
 
 // we access or call a function by writing its name.
-exampleFunction()
+//exampleFunction()
+let accountbalance = 1000;
+
+function depositMoney() {
+    let newBalance = accountbalance + 200;
+    document.getElementById('data').innerHTML = newBalance ;
+}
