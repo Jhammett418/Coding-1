@@ -32,3 +32,8 @@ function depositMoney() {
     let newBalance = accountbalance + 200;
     document.getElementById('data').innerHTML = newBalance ;
 }
+
+// data that we want to maipulate goes inside of
+// round brackets.
+// the instructions on what we want to do with the data
+// goes of the curly brackets
