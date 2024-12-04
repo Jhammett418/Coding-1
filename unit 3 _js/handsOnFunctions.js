@@ -35,3 +35,20 @@ function PizzaPartyinvitation(name) {
 }
 
 PizzaPartyinvitation()
+
+
+
+
+// Conditional statements in Js
+
+//conditional statements are written using
+// the 'if' and 'else' keywords. this alows 
+// use to make secisions based on data
+// our function recieves.
+
+function supermarket(items, groceries) {
+    console.log('welcome' + shoppers+ " you have entered the shopping arena.")
+    console.log("inventory stocking" + employes + ".")
+}
+
+market('manager', 'frozen food')
