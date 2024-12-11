@@ -1,3 +1,7 @@
 function reverseWord(word){
- newword =
+    
 }
+const word ='banana'
+const newWord= word.split("")
+ const reversedWord =newWord.reverse()
+console.log(reverseWord)
