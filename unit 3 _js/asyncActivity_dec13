@@ -1,0 +1,15 @@
+function positive(number){
+    console.log('coding is working')
+    console.log(number)
+}
+ if(number){
+    console.log('this is a positive number');
+}else if (number) {
+    console.log("this is a negative number");
+} else if (number){
+    console.log ('this is the number 0')
+} else{
+    console.log('sorry, this is not a number.')
+}
+
+positiveOrnegative(16);
