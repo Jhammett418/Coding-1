@@ -9,7 +9,12 @@ function positive(number){
 } else if (number){
     console.log ('this is the number 0')
 } else{
-    console.log('sorry, this is not a number.')
-}
+    console.log('sorry, this is not a number.');
+} 
 
-positiveOrnegative(16);
+
+positiveOrNegative(16);
+
+function positiveOrNegative(arg0: number) {
+    throw new Error("Function not implemented.");
+}
