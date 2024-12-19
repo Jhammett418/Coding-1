@@ -7,11 +7,14 @@ function holidayPlanner(date) {
         console.log("2nd day of break");
     } else if (date == 3) {
         console.log('on the 3rd im going to visit family')
-    } else {
-        console.log('sorry, this is not a date on the planner.');
+    } else (date== 4) 
+    } console.log('on the 4th im going to chill nad workout.');
+if (date == 5) {
+        console.log('on the 5th I will watch movies .');
     }
+    
 
-}
+
 
 holidayPlanner(3);
 
