@@ -4,4 +4,5 @@ function reverseWord(word){
 const word ='banana'
 const newWord= word.split("")
  const reversedWord =newWord.reverse()
-console.log(reverseWord)
+console
+.log(reverseWord)
