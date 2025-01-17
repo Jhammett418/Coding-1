@@ -1,0 +1,7 @@
+// 1.
+
+cleaningsupplies= ['dish soap', 'paper towels',]
+
+functionreverse()
+returnlist.reverse()
+const=['dishsoap','paper towel','gloves','bleach']
