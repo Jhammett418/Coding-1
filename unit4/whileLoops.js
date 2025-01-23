@@ -18,3 +18,16 @@ x = 2 // this is a example of an assignment
 while (x == 2){
     console.log ('this message will repeat forever.')
 }
+
+function timer(){
+    var interval = 60
+    while ( interval > 0){
+        console.log('countdown' + interval)
+        interval -=1
+    }
+    document.getElementById('count') .innerHtml
+    alert("times up!")
+    console.log("Times up!")
+}
+ 
+timer()
